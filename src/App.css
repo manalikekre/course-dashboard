@@ -1,0 +1,190 @@
+/* .App {
+	overflow: auto;
+} */
+body {
+	background-color: #f5f5f5;
+	font-family: 'Poppins', sans-serif;
+}
+
+.dashboard .card {
+	border-radius: 0.7rem !important;
+	border: none;
+	background-color: white !important;
+}
+
+.sidebar {
+	min-width: 80px;
+	background-color: #3d4069;
+	display: flex;
+	align-items: stretch;
+	min-height: 100vh;
+	width: 6%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 100vh;
+	z-index: 999;
+	color: #fff;
+	transition: all 0.3s;
+}
+.main {
+	padding-top: 60px;
+	padding-bottom: 15px;
+}
+.loading-icon {
+	margin: 10px;
+}
+.card {
+	display: inline-block;
+	margin: 40px 40px 0px 0px !important;
+	max-width: 25rem;
+	min-width: 20rem;
+}
+.card-header {
+	background-color: white;
+	border-radius: 0.7rem 0.7rem 0 0 !important;
+	font-size: 12px;
+	font-weight: bold;
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+}
+.student-display {
+	height: 360px;
+	overflow: auto;
+}
+.title {
+	font-size: 27px;
+	font-weight: bold;
+}
+.title span {
+	font-weight: normal;
+	font-size: 12px;
+	display: block;
+	color: #a79595;
+}
+
+.card-body {
+	display: inline-block;
+	/* margin-left: 70px; */
+}
+p.card-text {
+	font-weight: bold;
+	font-size: 25px;
+	line-height: 11px;
+}
+p.card-text.sub-text {
+	font-weight: normal;
+	color: #a79595;
+	font-size: 12px;
+}
+.stats-icon {
+	display: inline-block;
+	margin: auto;
+	/* position: absolute;
+	line-height: 77px;*/
+	padding: 10px;
+}
+.stats-line {
+	color: #a79595;
+	font-size: 18px;
+}
+span.sort {
+	color: #a79595;
+	font-size: 12px;
+	float: right;
+}
+.student-name {
+	color: #a79595;
+	font-size: 12px;
+	display: inline;
+	margin-left: 20px;
+}
+.studentDetails {
+	padding: 15px;
+}
+.student-marks {
+	display: inline;
+	font-weight: bold;
+}
+
+.student-info {
+	display: inline-block;
+	width: 87%;
+}
+
+.logged-in {
+	position: fixed;
+	right: 0;
+	border-right: 1px solid;
+	border-color: #a79595;
+	margin-right: 50px;
+	margin-top: 10px;
+	padding-right: 10px;
+}
+.user-avatar {
+	display: inline;
+	margin-right: 10px;
+}
+.user-info {
+	display: inline-block;
+	margin-right: 15px;
+	text-align: right;
+}
+span.username {
+	font-weight: bold;
+	font-size: 12px;
+}
+span.user-designation {
+	color: #a79595;
+	font-size: 12px;
+	display: block;
+}
+.main-logo {
+	margin: auto;
+	margin-top: 10px;
+}
+@media only screen and (max-width: 1300px) {
+	.main {
+		margin-left: 50px;
+	}
+}
+
+@media only screen and (min-width: 320px) and (max-width: 600px) {
+	.fa-university.fa-4x {
+		width: 40px;
+		height: 40px;
+	}
+	.fa-user-circle.fa-3x {
+		width: 40px;
+		height: 40px;
+	}
+	.sidebar {
+		min-width: 50px;
+	}
+	.dashboard.container {
+		margin-left: auto !important;
+	}
+	.card {
+		min-width: 17rem !important;
+	}
+	.fa-user-graduate.fa-2x {
+		width: 20px;
+		height: 20px;
+	}
+}
+.dashboard.container {
+	margin-left: 130px;
+}
+
+::-webkit-scrollbar {
+	width: 3px;
+}
+::-webkit-scrollbar-track {
+	background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+	background: #a79595;
+}
+::-webkit-scrollbar-thumb:hover {
+	background: #555;
+}
